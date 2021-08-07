@@ -50,6 +50,23 @@ test("findTwoLevelAbove should return data as expected", () => {
   expect(findTwoLevelAbove(treeFE, "Giang Grand Daughter")).toEqual(expected);
 });
 
+test("collectTreeBFS should list data as bread-first order ", () => {
+  const collectTreeBFS = (treeFE: TreeFE) => {
+    // TODO
+  };
+
+  const expected = [
+    "GrandMaster",
+    "Son",
+    "Giang",
+    "Man",
+    "Giang Daughter",
+    "Giang Grand Daughter",
+  ];
+
+  expect(collectTreeBFS(treeFE)).toEqual(expected);
+});
+
 test("getLowestCommonAncestor should list data as bread-first order ", () => {
   const getLowestCommonAncestor = (
     treeFE: TreeFE,
