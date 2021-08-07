@@ -15,14 +15,6 @@ export type TreeNodeFE = {
 
 export type TreeFE = Map<string, TreeNodeFE>;
 
-export function convertTreeBeToFe(tree: TreeBE): TreeFE {
-  const result: TreeFE = new Map();
-
-  tree.forEach((node) => processTreeNodeBe(node, null, result));
-
-  return result;
-}
-
 function processTreeNodeBe(
   node: TreeNodeBE,
   parentId: string | null,
@@ -46,4 +38,12 @@ function processTreeNodeBe(
   };
 
   treeData.set(nodeId, transformedData);
+}
+
+export function convertTreeBeToFe(tree: TreeBE): TreeFE {
+  const result: TreeFE = new Map();
+
+  tree.forEach((node) => processTreeNodeBe(node, null, result));
+
+  return result;
 }
