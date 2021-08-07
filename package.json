@@ -7,7 +7,9 @@
     "test": "jest",
     "test:w": "jest --watchAll"
   },
-  "keywords": ["tree"],
+  "keywords": [
+    "tree"
+  ],
   "author": "Nam Nguyen <nam.nguyen.node@gmail.com>",
   "license": "ISC",
   "devDependencies": {
@@ -15,7 +17,11 @@
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-typescript": "^7.15.0",
     "@types/jest": "^26.0.24",
+    "@types/lodash": "^4.14.172",
     "babel-jest": "^27.0.6",
     "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
