@@ -1,15 +1,13 @@
 {
   "name": "test-tree",
   "version": "1.0.0",
-  "description": "CodeSandbox for testing tree knowledge 🎉",
+  "description": "CodeSandbox for testing tree knowledge",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "test:w": "jest --watchAll"
   },
-  "keywords": [
-    "tree"
-  ],
+  "keywords": [],
   "author": "Nam Nguyen <nam.nguyen.node@gmail.com>",
   "license": "ISC",
   "devDependencies": {
