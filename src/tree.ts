@@ -23,7 +23,6 @@ export function convertTreeBeToFe(tree: TreeBE): TreeFE {
   return result;
 }
 
-// recursively walk through node tree and push the node data to treeData which <Tree /> component can read
 function processTreeNodeBe(
   node: TreeNodeBE,
   parentId: string | null,
