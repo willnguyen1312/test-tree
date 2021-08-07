@@ -1,0 +1,21 @@
+{
+  "name": "test-tree",
+  "version": "1.0.0",
+  "description": "CodeSandbox for testing tree knowledge 🎉",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:w": "jest --watchAll"
+  },
+  "keywords": ["tree"],
+  "author": "Nam Nguyen <nam.nguyen.node@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^26.0.24",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
+  }
+}
