@@ -40,7 +40,7 @@ const treeBE: TreeBE = [
 
 const treeFE = convertTreeBeToFe(treeBE);
 
-test("findRootKeys should return root keys correctly", () => {
+test.skip("findRootKeys should return root keys correctly", () => {
   const findRootKeys = (treeFE: TreeFE) => {
     // TODO
   };
@@ -50,7 +50,7 @@ test("findRootKeys should return root keys correctly", () => {
   expect(actual).toEqual(expected);
 });
 
-test("findNthLevelAbove should return data as expected", () => {
+test.skip("findNthLevelAbove should return data as expected", () => {
   const findNthLevelAbove = (treeFE: TreeFE, value: string, level: number) => {
     // TODO
   };
@@ -60,7 +60,7 @@ test("findNthLevelAbove should return data as expected", () => {
   expect(actual).toEqual(expected);
 });
 
-test("collectTreeBFS should list data as bread-first order ", () => {
+test.skip("collectTreeBFS should list data as bread-first order ", () => {
   const collectTreeBFS = (treeFE: TreeFE) => {
     // TODO
   };
@@ -78,7 +78,7 @@ test("collectTreeBFS should list data as bread-first order ", () => {
   expect(actual).toEqual(expected);
 });
 
-test("getLowestCommonAncestor should return the lowest common ancestor node", () => {
+test.skip("getLowestCommonAncestor should return the lowest common ancestor node", () => {
   const getLowestCommonAncestor = (
     treeFE: TreeFE,
     first: string,
